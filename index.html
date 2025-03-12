@@ -56,7 +56,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/cover.jpeg" alt="" data-aos="fade-in">
+      <img src="assets/img/image.webp" alt="" data-aos="fade-in">
 
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
         <h2>Gopik Nair</h2>
@@ -79,8 +79,8 @@
               </div>
               <div class="col-lg-7 about-info">
                 <p><strong>Name:    </strong> <span>Gopik Nair</span></p>
-                <p><strong>Profile: </strong> <span>Robotics Engineer</span></p>
-                <p><strong>Email:   </strong> <span>gjn7419@nyu.edu</span></p>
+                <p><strong>Role:    </strong> <span>Robotics Engineer</span></p>
+                <p><strong>Email:   </strong> <span>gopik.nair@nyu.edu</span></p>
                 <p><strong>Phone:   </strong> <span>(714) 902-7650</span></p>
               </div>
             </div>
@@ -157,7 +157,7 @@
             <h3 class="resume-title">Experience</h3>
             
             <div class="resume-item">
-                <h4>Research Scholar</h4>
+                <h4>Assistant Research Scientist</h4>
                 <h3>NYU Mechanical and Controls Lab</h3><br>
                 <h5 class="nospace">July 2024 - Present</h5>
                 <ul>
@@ -224,19 +224,7 @@
 
     </section><!-- /Resume Section -->
 
-    <script>
-      window.CHAT_WIDGET_CONFIG = {
-          primaryColor: '#FF5733',  // Set chat widget's primary color
-          logo: 'https://pmfm.ai/img/logo33.png',  // Set logo image for the chat widget
-          welcomeMessage: 'Welcome to our support chat!',  // Set the welcome message
-          botId: '679c204d72303a80a6a947df',  // Unique bot identifier
-          botName: 'MechanicalLabAssitant',  // Name of the bot
-          textColor: '#ffffff'  // Set text color in the chat widget
-      };
-  </script>
-  <script src="https://pmfm.ai/js/chat-widget.js" defer></script>
-    
-
+   
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
 
@@ -252,84 +240,101 @@
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-soc">Robotics</li>
-            <li data-filter=".filter-es">Control Systems</li>
+            <li data-filter=".filter-es">Computer Vision</li>
             <li data-filter=".filter-ot">Other</li>
           </ul>
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
+
             
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
-              <img src="assets/project/msthesis.png" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc filter-es">
+              <img src="assets/project/UR16.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Evaluating High Pass Filters for Mitigating Drift in Neurotransmitter Measurement</h4>
-                <p>This project focuses on assessing high pass filters to address signal drift issues in neurotransmitter measurement systems. By implementing and testing various high pass filter designs, the goal is to enhance the accuracy and stability of neurotransmitter readings, ensuring more reliable and consistent data for neurological studies.</p>
+                <h4>Safe Human interaction with UR16 using CBF</h4>
+                <p>Developed a hierarchical control barrier function (CBF) framework for safe human-robot interaction, ensuring obstacle avoidance and set invariance. Implemented on the Universal Robot UR16e and validated through simulations.</p>
                 <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                <a href="https://drive.google.com/file/d/1peM_vMAUTiekzrZ3pGC0f7KlIFkrfVQ9/view?usp=sharing" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7196714201761869825/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-es">
+            <img src="assets/project/Aruco.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Basic Augmented Reality using Python</h4>
+              <p>This project uses ArUco markers to create a simple augmented reality (AR) experience. ArUco markers, developed in 2014, are binary fiducial markers that help accurately integrate virtual objects with the real world. By employing OpenCV and Numpy libraries, the project combines real and virtual elements in real-time, enhancing interactive experiences through visual and spatial alignment.</p>
+              <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+              <a href="https://github.com/Gops2/Basic_Augmented_Reality" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+        </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
+              <img src="assets/img/projects/AGV.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Autonomous AGV Navigation System</h4>
+                <p>Designed an automated guided vehicle (AGV) that autonomously navigates a factory floor, efficiently transporting widgets between processing stations. The system follows predefined lanes, avoids obstacles, and dynamically adapts to pickup and drop-off conditions using the Parallax Propeller.</p>
+                <a href="assets/img/projects/AGV.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+                <a href="https://github.com/Gops2/Autonomous_Cargo_Bot?tab=readme-ov-file" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
+              <img src="assets/project/F1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Autonomous Racing Car on F1/10 Platform in ROS2</h4>
+                <p>Developed robust navigation and control algorithms for an autonomous racing car using the F1/10 platform within the ROS 2 simulation environment. Implemented advanced control strategies for optimal racing performance.</p>
+                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+                <a href="https://www.linkedin.com/posts/activity-7171024796384747520-8hm4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzfJ5wBSXe1b4kQmijLyGBVh_5JcctTH0w" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+          </div><!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
+            <img src="assets/project/Boe.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Search and Rescue Mobile Robot</h4>
+              <p>Designed and developed a cost-effective Search and Rescue Mobile Robot using a BS2 microcontroller, sonar sensor, and IR remote control. The robot enables efficient navigation and obstacle detection in dynamic environments.</p>
+              <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
+              <a href="https://github.com/Gops2/Search_and_rescue_bot" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+        </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
-                <img src="assets/project/sha256.png" class="img-fluid" alt="">
+                <img src="assets/project/asd.avif" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>SHA-256 ASIC with Advanced Adder Designs </h4>
-                  <p>Contributed to the creation of an open-source ASIC optimized for the SHA-256 hash function used in Bitcoin mining by assisting in the design and verification of the Compression function, achieving GDS-II tape-out readiness, and surpassing DRC/LVS checks through optimized SDC constraints. Utilized an advanced adder design to reduce power consumption by 18%, exceeding the performance benchmarks set in the reference paper.</p>
+                  <h4>A* Pathfinding Algorithm</h4>
+                  <p>This project implements the A* (A-star) algorithm, an efficient and widely used pathfinding algorithm that finds the shortest route between two points in a graph or grid. It is a valuable tool for navigation, robotics, and game development.</p>
                   <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                  <a href="https://github.com/Aswin-Raj-K/SHA-256-ASIC-for-Bitcoin-Mining" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/Gops2/A_Star_Algorithm" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
-                <img src="assets/project/mbist.png" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
+                <img src="assets/project/Chess.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>BIST SRAM Design</h4>
-                  <p>Developed Verilog code for a 256x4b SRAM MBIST, integrated four test algorithms, and optimized timing using Genus tools. BIST enabled fault detection and self-testing without external equipment, reducing costs and improving quality. This approach ensures reliability and real-time monitoring for complex digital systems.</p>
+                  <h4>Camera Calibration</h4>
+                  <p>This Python script performs camera calibration using OpenCV by detecting a checkerboard pattern in a series of images. The calibration process determines the camera matrix (K) and distortion coefficients, which are essential for correcting lens distortion in computer vision applications.</p>
                   <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                  <a href="https://github.com/Aswin-Raj-K/SRAM-256X4b-BIST" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/Gops2/Camera_Calibration" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
-                <img src="assets/project/riscv.png" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
+                <img src="assets/project/Figure_1.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>RV32I Processor Design</h4>
-                  <p>The goal of this project was to design and implement a RISC-V RV32I processor from scratch, focusing on creating a fully functional and efficient 32-bit RISC-V processor core that adheres to the RV32I instruction set architecture (ISA). The design aims to deliver a robust, scalable processor that can be utilized in various applications and serves as a foundation for further enhancements.</p>
+                  <h4>Fashion-MNIST Autoencoder & t-SNE Visualization</h4>
+                  <p>Trained an unsupervised neural network to learn a lower-dimensional representation of the Fashion-MNIST dataset using an autoencoder. Applied t-SNE to reduce the dimensions to 2D and visualized the clustering of 10,000 images.</p>
                   <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
                   <a href="https://github.com/Aswin-Raj-K/RV32I-Processor-Design" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-es">
-                <img src="assets/project/compressorMonitor.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>F-70 Compressor Monitor</h4>
-                  <p>Designed to monitor F-70 compressors, this device detects errors such as high water temperature, low water flow, and operational status, leveraging the compressor's Modbus capability.</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                  <a href="https://github.com/Aswin-Raj-K/CompressorStateMonitor" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-            </div><!-- End Portfolio Item -->
 
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
-                <img src="assets/project/nidaq_interface.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>NIDAQ Python Interface</h4>
-                  <p>The NIDAQ Python Interface offers extended data recording without memory issues by writing data in batches. It also provides real-time control and waveform generation, utilizing multithreading to ensure smooth performance. Additionally, it supports advanced data processing and visualization, making it ideal for research and industrial applications.</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                  <a href="https://github.com/Aswin-Raj-K/NIDAQInterface" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-            </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-es">
-                <img src="assets/project/fscv_readout_board.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>FSCV Multi Channel Chip Readout</h4>
-                  <p>The FSCV Multi-Channel Chip Readout Board includes readout pins for 8 FSCV channels and features a microcontroller that manages inputs to the IC under test, controlled by analog switches. It also includes a JTAG connector for programming and communication. The design minimizes user intervention and is suitable for use inside a Faraday cage. Interaction with the board is facilitated by a Python-based GUI using UART communication.</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                  <a href="https://github.com/Aswin-Raj-K/FSCV-Multi-Channel-Chip-Readout-Board" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-            </div><!-- End Portfolio Item -->
 
+
+
+<!-- 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
                 <img src="assets/project/rc5_encry_decry.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -339,7 +344,7 @@
                   <a href="https://github.com/Aswin-Raj-K/RC5-Encryption-and-Decryption-on-FPGA" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
-
+<!-- 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
                 <img src="assets/project/nidaq_pressure_reader.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -349,7 +354,7 @@
                   <a href="https://github.com/Aswin-Raj-K/NIDAQ-Based-Pressure-Reading-Interface-for-Agilent-FRG-700-702" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
-
+<!-- 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-es">
                 <img src="assets/project/pedometer.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -360,7 +365,7 @@
                 </div>
             </div><!-- End Portfolio Item -->
 
-
+<!-- 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
                 <img src="assets/project/pulseDoppler.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -371,7 +376,7 @@
                 </div>
             </div><!-- End Portfolio Item -->
             
-
+<!-- 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
                 <img src="assets/project/chessMovementDetection.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -382,7 +387,7 @@
                 </div>
             </div><!-- End Portfolio Item -->
             
-
+<!-- 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
                 <img src="assets/project/vmips_simulator.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -392,7 +397,7 @@
                   <a href="https://github.com/Aswin-Raj-K/VMIPS-Functional-Timing-Simulator" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
-
+<!-- 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-es">
                 <img src="assets/project/pressure_reader.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -403,15 +408,7 @@
                 </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
-                <img src="assets/project/augmented_reality.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Basic Augmented Reality using Python</h4>
-                  <p>This project uses ArUco markers to create a simple augmented reality (AR) experience. ArUco markers, developed in 2014, are binary fiducial markers that help accurately integrate virtual objects with the real world. By employing OpenCV and Numpy libraries, the project combines real and virtual elements in real-time, enhancing interactive experiences through visual and spatial alignment.</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                  <a href="https://github.com/Aswin-Raj-K/https://github.com/Aswin-Raj-K/Basic-Augmented-Reality-Using-Python?tab=readme-ov-file" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-            </div><!-- End Portfolio Item -->
+
             
 
 
@@ -467,7 +464,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Me</h3>
-                <p><a href="mailto:ar7997@nyu.edu">gopik.nair@nyu.edu</a></p>
+                <p><a href="mailto:gopik.nair@nyu.edu">gopik.nair@nyu.edu</a></p>
               </div>
             </div>
           </div><!-- End Info Item -->
