@@ -26,7 +26,19 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J1RW9K9G7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J1RW9K9G7D');
+</script>
+
 </head>
+
+
 
 <body class="index-page">
 
@@ -329,12 +341,6 @@
             </div><!-- End Portfolio Item -->
 
 
-
-
-
-
-
-
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-soc">
                 <img src="assets/project/Figure_2.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -344,24 +350,24 @@
                   <a href="https://github.com/Gops2/Forward_kinematics_ML" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
-<!-- 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ot">
-                <img src="assets/project/nidaq_pressure_reader.png" class="img-fluid" alt="">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-es">
+                <img src="assets/project/ICP.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>NIDAQ Based Pressure Reading Interface for Agilent FRG-700/702 Senors</h4>
-                  <p>The GUI provides an intuitive interface for efficiently monitoring pressure readings from multiple Agilent FRG-700/702 sensors. It ensures accurate data collection with flexible options for visualization and export, making it an essential tool for laboratory and industrial applications. Multiple sensor data can be viewed separately or overlaid for comparison in the graph window.</p>
+                  <h4>ICP Algorithm for Point Cloud Alignment</h4>
+                  <p>Implemented the Iterative Closest Point (ICP) algorithm to align 3D point clouds. Applied on Open3D demo datasets and KITTI dataset to refine alignment through iterative transformation matrix optimization.</p>
                   <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                  <a href="https://github.com/Aswin-Raj-K/NIDAQ-Based-Pressure-Reading-Interface-for-Agilent-FRG-700-702" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/Gops2/ICP_Algorithm/tree/main" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
-<!-- 
+
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-es">
-                <img src="assets/project/pedometer.png" class="img-fluid" alt="">
+                <img src="assets/project/Lucas.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Pedometer design using STM32F429I</h4>
-                  <p>Successfully designed a Pedometer using the STM32F429I Freedom board, leveraging the onboard I3G4250D gyrometer to capture angular velocity data, which is then used to calculate the distance walked.</p>
+                  <h4>Lucas-Kanade Optical Flow Tracker</h4>
+                  <p>Implemented a point tracker using the Lucas-Kanade Optical Flow algorithm to track user-selected points in a video. Enables real-time motion tracking with OpenCV.</p>
                   <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"></a>
-                  <a href="https://github.com/Aswin-Raj-K/STM32_Pedometer" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/Gops2/Lucas-Kanade_Optical_Flow_Point_Tracker" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
             </div><!-- End Portfolio Item -->
 
